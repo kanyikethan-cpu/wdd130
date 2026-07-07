@@ -1,6 +1,18 @@
 main{
     max-width: 850px;
 }
+nav{
+    background-color: #333;
+    padding: 1rem;
+}
+nav a{
+    color: #fff;
+    padding: 0.5rem;
+    display:block;
+}
+h1{
+    color: #333;
+}
 aside{
    width: 20rem;
    margin: 1rem;
@@ -19,9 +31,12 @@ aside img{
 main img{
     width: 150px;
     height: auto;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    box-shadow: #000;
 }
 p{
-    margin: 0;
+    padding: 0;
 
 }
 footer{
