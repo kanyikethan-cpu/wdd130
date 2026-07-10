@@ -1,50 +1,73 @@
-main{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
     max-width: 850px;
 }
-nav{
+
+nav {
     background-color: #333;
     padding: 1rem;
 }
-nav a{
+
+nav a {
     color: #fff;
     padding: 0.5rem;
-    display:block;
+    display: block;
 }
-h1{
+
+h1 {
     color: #333;
 }
-aside{
-   width: 20rem;
-   margin: 1rem;
-   border: 1px solid rgb(0 0 0 / 0.2);
-   padding: 1rem;
-   background-color: #eeee;
-   color: #000;
-   text-align: center;
+
+aside {
+    width: 20rem;
+    text-align: center;
+    position: relative;
 
 }
-aside img{
+
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px
+}
+
+aside img {
     width: 200px;
     height: auto;
-    
+
 }
-main img{
+
+main img {
     width: 150px;
     height: auto;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
-    box-shadow: 2px 2px 5px #000; 
-
+    box-shadow: 2px 2px 5px #000;
+    float: right;
 }
-p{
+
+p {
     padding: 0;
 
 }
-footer{
+
+footer {
     text-align: center;
     margin-top: 20px;
     border-top: 1px solid #000;
 
+}
 
-    
+/* Class selectors*/
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 /10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }
