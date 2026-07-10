@@ -74,7 +74,8 @@ h1 {
     bottom: 20px;
     left: 20px;
     right: 20px;
-    background-color: rgba(255, 255, 255, .8);
+    background-color: var(--secondary-color);
+    opacity: 0.9;
 }
 
 .hero article img {
@@ -86,4 +87,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
 }
